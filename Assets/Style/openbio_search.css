@@ -1,0 +1,47 @@
+/*
+
+r0LLQ1  QOQQ0O;                                /0000~  +LLLQ1  `vQLLL_ "00QQ00                                 u000QI  }QLLQ?
+ ?Q0`   IXLCL~ [XQQQX]                  ?fxf?   xLQ}     QQi     \LQ    >CLLUi |UQQLc<                  }jxf~  ^zLQ+    :Q0`
+  0c      QQl  )QLCLL- l>l`             }QLQ}    0z      uQ      "0/     "Q0   fQLCQCi !>l              (0LL_   ,0f      LX
+  U(      rL     zLu zOQQQOQ      /LLL}  iO<     Y1      (X       Q?      Uc     LQ/ QOQQQOY      nLLC~  [O"     0_      nt
+  v]      {v     ;Z" ijQLQr]-(\(?. t0{    Z      v?      }x       Ql      j\     _O  _n0CQ/-?|\(- ^nQ-   ,Q      CI      /)
+  x?      [r      Q     0`.Z0QQQ0m  0     Z      n-      [x       L;      \1     ,L    ^O iZ0QQQ0O !J    ^Q      JI      \1
+  u?      [x      0    [Q( ,}/f/]?tQLQ/I ^Z,     z[      {n       LI      /1     :Q    |0] I1tf\?]xQLL(, <O      Q>      t(
+  X1      )X     >Ol  1QQQf      0OQQQOC uQv     Lf      |U       Q+      nf     }O   fQQQ{     ,O0QQQOx YQ/     0}      uj
+  0x      zQ    ?QLQ-             ,>~>.+CLCLL}  I0Q      cQ      .0)      LJ    10LC>             ;<~i [LLCQU+  -QU      QJ
+ !QQ     ]QLt   }xvx[                  {J000J) iLCLv,   `QQ+     ]QJ     |QQ1   |nvx+                  \C00QU- _QCQj`   iQ0:
+}QLLJ>  _O00Ot                                IZ0QQOQ  ]LLLQ\   |QLQz;  )O00O[                                _Z0QQOY  (QLLQ1
+]rvufi                                          "I;.   -xzXu)   {xvut;                                          ,I;    {nXXn}
+
+                                                OPENBIO DEVELOPER, LEEWOOJIN
+                                                DEPT OF COMPUTER ENGINEERING
+                                                      DAEJIN UNIVERSITY
+                                                      
+*/
+
+/* OpenBioSearch.php Style */
+.openbio-wrapper .seacrh-result-box { position: relative; background-image: url('../Images/Search/search-background.png'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; border: none; border-radius: 10px; width: 95%; height: 70px; margin: 0 auto; margin-top: 155px; }
+.openbio-wrapper .seacrh-result-box .search-keyword { position: absolute; left: 50%; top: 50%; width: 95%; transform: translate(-50%, -50%); font-size: 1.5rem; text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); color: #fff; }
+.openbio-wrapper .seacrh-result-box .left-arrow { position: absolute; left: 0; top: 0; width: 50px; height: 70px; background-color: rgba(0, 0, 0, 0.4); border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.openbio-wrapper .seacrh-result-box .left-arrow .btn-left { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); fill: #fff; width: 25px; height: auto; }
+.openbio-wrapper .seacrh-result-box .left-arrow .page { position: absolute; top: 22px; left: 60px; text-align: left; color: #fff; }
+.openbio-wrapper .seacrh-result-box .right-arrow { position: absolute; right: 0; top: 0; width: 50px; height: 70px; background-color: rgba(0, 0, 0, 0.4); border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.openbio-wrapper .seacrh-result-box .right-arrow .btn-right { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); fill: #fff; width: 25px; height: auto; }
+.openbio-wrapper .seacrh-result-box .right-arrow .page { position: absolute; top: 22px; right: 60px; text-align: right; color: #fff; }
+
+.openbio-wrapper .control-box { position: relative; margin: 0 auto; margin-top: 30px; margin-bottom: 10px; width: 95%; text-align: right; }
+.openbio-wrapper .control-box select { padding: 5px; border-radius: 10px; margin-left: 5px; }
+.openbio-wrapper .control-box .page-display { margin-right: 30px; }
+.openbio-wrapper .control-box .top-btn { margin-left: 30px; }
+.openbio-wrapper .control-box .reviewed-display { position: absolute; left: 0; }
+.openbio-wrapper .control-box select[id="view-counter"] { margin-right: 30px; }
+
+.openbio-wrapper .search-table { margin: 0 auto; margin-bottom: 30px; width: 95%; }
+.openbio-wrapper .search-table table { border-collapse: collapse; width: 100%; }
+.openbio-wrapper .search-table table .title { background-color: #646464; color: #fff; font-weight: 500; }
+.openbio-wrapper .search-table table .title > td { border-left: 1px solid transparent; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.openbio-wrapper .search-table table tr:not(.title) { border: 1px solid #ebebeb; }
+.openbio-wrapper .search-table table tr td { margin: 0; padding: 10px; font-size: .9rem; border-left: 1px solid #ebebeb; }
+
+.openbio-wrapper .search-table table tr > .w50 { width: 50%; }
+.openbio-wrapper .search-table table tr > .text-left { text-align: left; }

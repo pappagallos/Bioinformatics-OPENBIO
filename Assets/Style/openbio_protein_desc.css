@@ -1,0 +1,44 @@
+/*
+
+r0LLQ1  QOQQ0O;                                /0000~  +LLLQ1  `vQLLL_ "00QQ00                                 u000QI  }QLLQ?
+ ?Q0`   IXLCL~ [XQQQX]                  ?fxf?   xLQ}     QQi     \LQ    >CLLUi |UQQLc<                  }jxf~  ^zLQ+    :Q0`
+  0c      QQl  )QLCLL- l>l`             }QLQ}    0z      uQ      "0/     "Q0   fQLCQCi !>l              (0LL_   ,0f      LX
+  U(      rL     zLu zOQQQOQ      /LLL}  iO<     Y1      (X       Q?      Uc     LQ/ QOQQQOY      nLLC~  [O"     0_      nt
+  v]      {v     ;Z" ijQLQr]-(\(?. t0{    Z      v?      }x       Ql      j\     _O  _n0CQ/-?|\(- ^nQ-   ,Q      CI      /)
+  x?      [r      Q     0`.Z0QQQ0m  0     Z      n-      [x       L;      \1     ,L    ^O iZ0QQQ0O !J    ^Q      JI      \1
+  u?      [x      0    [Q( ,}/f/]?tQLQ/I ^Z,     z[      {n       LI      /1     :Q    |0] I1tf\?]xQLL(, <O      Q>      t(
+  X1      )X     >Ol  1QQQf      0OQQQOC uQv     Lf      |U       Q+      nf     }O   fQQQ{     ,O0QQQOx YQ/     0}      uj
+  0x      zQ    ?QLQ-             ,>~>.+CLCLL}  I0Q      cQ      .0)      LJ    10LC>             ;<~i [LLCQU+  -QU      QJ
+ !QQ     ]QLt   }xvx[                  {J000J) iLCLv,   `QQ+     ]QJ     |QQ1   |nvx+                  \C00QU- _QCQj`   iQ0:
+}QLLJ>  _O00Ot                                IZ0QQOQ  ]LLLQ\   |QLQz;  )O00O[                                _Z0QQOY  (QLLQ1
+]rvufi                                          "I;.   -xzXu)   {xvut;                                          ,I;    {nXXn}
+
+                                                OPENBIO DEVELOPER, LEEWOOJIN
+                                                DEPT OF COMPUTER ENGINEERING
+                                                      DAEJIN UNIVERSITY
+                                                      
+*/
+
+.openbio-wrapper .seacrh-result-box { position: relative; background-image: url('../Images/Search/view-background.png'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; border: none; border-radius: 10px; width: 100%; height: 70px; margin: 0 auto; margin-top: 155px; }
+.openbio-wrapper .seacrh-result-box .search-keyword { position: absolute; left: 50%; top: 50%; width: 95%; transform: translate(-50%, -50%); font-size: 1.5rem; text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5); color: #fff; padding: 25px; }
+
+.openbio-wrapper .date { margin-top: 30px; text-align: left; }
+
+.openbio-wrapper { margin: 0 auto; margin-bottom: 30px; width: 95%; }
+.openbio-wrapper table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+.openbio-wrapper table .title { background-color: #646464; color: #fff; font-weight: 500; }
+.openbio-wrapper table .title > td { border-left: 1px solid transparent; border-top-left-radius: 10px; border-top-right-radius: 10px; }
+.openbio-wrapper table tr:not(.title) { border: 1px solid #ebebeb; }
+.openbio-wrapper table tr td { margin: 0; padding: 10px; font-size: .9rem; border-left: 1px solid #ebebeb; }
+
+.openbio-wrapper table tr > .w50 { width: 50%; }
+.openbio-wrapper table tr > .text-left { text-align: left; }
+
+.openbio-wrapper .sequence { table-layout: fixed; }
+.openbio-wrapper table .row-title { background-color: #646464; color: #fff; font-weight: 500; width: 160px; border: 1px solid transparent; }
+.openbio-wrapper table tr #sequence { width: 95%; word-break: break-all; text-align: left; }
+.openbio-wrapper table tr .row-contents { text-align: left; font-size: .9rem; }
+.openbio-wrapper table tr td .seq_highlight { color: #fff; background-color: #148ac0; border-radius: 4px; margin: 3px; padding: 2px 4px 2px 4px; line-height: 30px; }
+.openbio-wrapper table tr td .locate-highlight { color: #000; border: 1px solid #000; border-radius: 4px; margin: 3px; padding: 2px 4px 2px 4px; line-height: 35px; }
+
+.openbio-wrapper .sequence input[id="seq_search"] { width: 100%; padding: 5px; font-size: .9rem; border: none; border-bottom: 2px solid #646464; font-family: 'Noto Sans KR', sans-serif; }

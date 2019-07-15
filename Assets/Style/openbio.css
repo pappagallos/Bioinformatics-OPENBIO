@@ -1,0 +1,30 @@
+/*
+
+r0LLQ1  QOQQ0O;                                /0000~  +LLLQ1  `vQLLL_ "00QQ00                                 u000QI  }QLLQ?
+ ?Q0`   IXLCL~ [XQQQX]                  ?fxf?   xLQ}     QQi     \LQ    >CLLUi |UQQLc<                  }jxf~  ^zLQ+    :Q0`
+  0c      QQl  )QLCLL- l>l`             }QLQ}    0z      uQ      "0/     "Q0   fQLCQCi !>l              (0LL_   ,0f      LX
+  U(      rL     zLu zOQQQOQ      /LLL}  iO<     Y1      (X       Q?      Uc     LQ/ QOQQQOY      nLLC~  [O"     0_      nt
+  v]      {v     ;Z" ijQLQr]-(\(?. t0{    Z      v?      }x       Ql      j\     _O  _n0CQ/-?|\(- ^nQ-   ,Q      CI      /)
+  x?      [r      Q     0`.Z0QQQ0m  0     Z      n-      [x       L;      \1     ,L    ^O iZ0QQQ0O !J    ^Q      JI      \1
+  u?      [x      0    [Q( ,}/f/]?tQLQ/I ^Z,     z[      {n       LI      /1     :Q    |0] I1tf\?]xQLL(, <O      Q>      t(
+  X1      )X     >Ol  1QQQf      0OQQQOC uQv     Lf      |U       Q+      nf     }O   fQQQ{     ,O0QQQOx YQ/     0}      uj
+  0x      zQ    ?QLQ-             ,>~>.+CLCLL}  I0Q      cQ      .0)      LJ    10LC>             ;<~i [LLCQU+  -QU      QJ
+ !QQ     ]QLt   }xvx[                  {J000J) iLCLv,   `QQ+     ]QJ     |QQ1   |nvx+                  \C00QU- _QCQj`   iQ0:
+}QLLJ>  _O00Ot                                IZ0QQOQ  ]LLLQ\   |QLQz;  )O00O[                                _Z0QQOY  (QLLQ1
+]rvufi                                          "I;.   -xzXu)   {xvut;                                          ,I;    {nXXn}
+
+                                                OPENBIO DEVELOPER, LEEWOOJIN
+                                                DEPT OF COMPUTER ENGINEERING
+                                                      DAEJIN UNIVERSITY
+                                                      
+*/
+
+/* OpenBio.php Style */
+.openbio-wrapper .openbio-search { width: 100%; height: 600px; background-image: url('../Images/Main/search-background.png'); background-attachment: fixed; background-position: center; background-size: cover; background-repeat: no-repeat; }
+.openbio-wrapper .openbio-search .search-openbio-logo { margin-top: 180px; }
+.openbio-wrapper .openbio-search form { position: relative; margin: 0 auto; min-width: 500px; max-width: 700px; height: 40px; border-radius: 5px; font-size: 14px; border: 1px solid #fff; background-color: #fff; }
+.openbio-wrapper .openbio-search form button { border: none; background: transparent; cursor: pointer; }
+.openbio-wrapper .openbio-search form button:focus { outline: none; }
+.openbio-wrapper .openbio-search form input[class="tmenu-search"] { position: absolute; left: 46px; top: 8px; width: 100%; padding-right: 15px; border: none; background-color: transparent; font-family: 'Noto Sans KR', sans-serif; }
+.openbio-wrapper .openbio-search form input[class="tmenu-search"]:focus { width: 100%; padding-right: 15px; outline: none; background-color: transparent; font-family: 'Noto Sans KR', sans-serif; }
+.openbio-wrapper .openbio-search form button > svg { position: absolute; top: 0; left: 0; margin: 9px 5px 5px 10px; fill: #c9c9c9; width: 20px; height: auto; float: left; }
